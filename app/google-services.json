@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "835645860875",
+    "project_id": "express-go-e8d7f",
+    "storage_bucket": "express-go-e8d7f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835645860875:android:a47076a0b4468330b06b0e",
+        "android_client_info": {
+          "package_name": "com.cpimca.Mylibrary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835645860875-ajqo6a60gqe2h600bnqk3iii1tbd8bb1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWCX0eZ5CKB00Jo3WZiD5Lhykc3LqIwlA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835645860875-ajqo6a60gqe2h600bnqk3iii1tbd8bb1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

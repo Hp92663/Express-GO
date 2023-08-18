@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Mylibrary"
+        tools:targetApi="31">
+        <activity
+            android:name=".order_form"
+            android:exported="false" />
+        <activity
+            android:name=".User_Profile"
+            android:exported="false" />
+        <activity
+            android:name=".complete_wheel_care"
+            android:exported="false" />
+        <activity
+            android:name=".yokohama_tyre"
+            android:exported="false" />
+        <activity
+            android:name=".apollo_tyre"
+            android:exported="false" />
+        <activity
+            android:name=".standard_periodic_services"
+            android:exported="false" />
+        <activity
+            android:name=".basic_periodic_service"
+            android:exported="false" />
+        <activity
+            android:name=".Periodic_services"
+            android:exported="false" />
+        <activity
+            android:name=".fail_payment"
+            android:exported="false" />
+        <activity
+            android:name=".success_payment"
+            android:exported="false" />
+        <activity
+            android:name=".gotofail"
+            android:exported="false" />
+        <activity
+            android:name=".goto_success"
+            android:exported="false" />
+        <activity
+            android:name=".rear_taillight"
+            android:exported="false" />
+        <activity
+            android:name=".front_headlight"
+            android:exported="false" />
+        <activity
+            android:name=".fog_light"
+            android:exported="false" />
+        <activity
+            android:name=".cart"
+            android:exported="false" />
+        <activity
+            android:name=".glasses"
+            android:exported="false" />
+        <activity
+            android:name=".side_mirror"
+            android:exported="false" />
+        <activity
+            android:name=".lights"
+            android:exported="false" />
+        <activity
+            android:name=".complete_suspension"
+            android:exported="false" />
+        <activity
+            android:name=".link_road"
+            android:exported="false" />
+        <activity
+            android:name=".front_shock"
+            android:exported="false" />
+        <activity
+            android:name=".Suspension"
+            android:exported="false" />
+        <activity
+            android:name=".EPS_module"
+            android:exported="false" />
+        <activity
+            android:name=".sterring_rack"
+            android:exported="false" />
+        <activity
+            android:name=".fly_wheel"
+            android:exported="false" />
+        <activity
+            android:name=".clutch_overhaul"
+            android:exported="false" />
+        <activity
+            android:name=".clutch"
+            android:exported="false" />
+        <activity
+            android:name=".wheel_cylinder"
+            android:exported="false" />
+        <activity
+            android:name=".front_brake"
+            android:exported="false" />
+        <activity
+            android:name=".rear_brake"
+            android:exported="false" />
+        <activity
+            android:name=".rear_bumper"
+            android:exported="false" />
+        <activity
+            android:name=".front_bumper"
+            android:exported="false" />
+        <activity
+            android:name=".rear_door"
+            android:exported="false" />
+        <activity
+            android:name=".front_door"
+            android:exported="false" />
+        <activity
+            android:name=".body_parts"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".regular_ac"
+            android:exported="false" />
+        <activity
+            android:name=".cooling_coil"
+            android:exported="false" />
+        <activity
+            android:name=".high_perform_ac"
+            android:exported="false" />
+        <activity
+            android:name=".ac_services"
+            android:exported="false" />
+        <activity
+            android:name=".tyres"
+            android:exported="false" />
+        <activity
+            android:name=".period_service"
+            android:exported="false" />
+        <activity
+            android:name=".brake"
+            android:exported="false" />
+        <activity
+            android:name=".windshield_light"
+            android:exported="false" />
+        <activity
+            android:name=".sterring"
+            android:exported="false" />
+        <activity
+            android:name=".register_success"
+            android:exported="false" />
+        <activity
+            android:name=".custom_service"
+            android:exported="false" />
+        <activity
+            android:name=".dent2"
+            android:exported="false" />
+        <activity
+            android:name=".dent1"
+            android:exported="false" />
+        <activity
+            android:name=".denting"
+            android:exported="false" />
+        <activity
+            android:name=".exide_battery"
+            android:exported="false" />
+        <activity
+            android:name=".amaron_battery"
+            android:exported="false" />
+        <activity
+            android:name=".battery"
+            android:exported="false" />
+        <activity
+            android:name=".HomePage"
+            android:exported="false" />
+        <activity
+            android:name=".UserRegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

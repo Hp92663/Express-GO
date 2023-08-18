@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        tools:context=".job_card"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="393dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="Vehicle Job Card"
+                android:textColor="@color/black"
+                android:textSize="24dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/profile_shape"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:backgroundTint="@color/gray"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="34dp"
+                android:text="VEHICLE DETAILS"
+                android:textColor="@color/black" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/black"
+                app:boxStrokeColor="@color/black"
+                android:hint="Job No">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/jobno"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="24dp"
+                    android:inputType="number"
+                    android:maxLength="3"
+                    android:textColor="@color/black" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:paddingLeft="15dp"
+                    android:text="Job Date"
+                    android:textColor="@color/black"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="79dp" />
+
+                <Button
+                    android:id="@+id/dob"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:text="Jan 01 2022"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:inputType="date"
+                    style="?android:spinnerStyle"
+                    android:onClick="openDatePicker"/>
+
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/username"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/black"
+                app:boxStrokeColor="@color/black"
+                android:hint="Customer Name">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/cname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="24dp"
+                    android:inputType="text"
+                    android:textColor="@color/black" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Customer Mobile no"
+                    android:textColorHint="@color/black"
+                    app:boxStrokeColor="@color/black">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/mobileno"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        android:layout_marginBottom="24dp"
+                        android:inputType="number"
+                        android:maxLength="10"
+                        android:textColor="@color/black" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/black"
+                app:boxStrokeColor="@color/black"
+                android:hint="Car Registration No">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/carregino"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="24dp"
+                    android:inputType="text"
+                    android:textColor="@color/black"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/black"
+                app:boxStrokeColor="@color/black"
+                android:hint="Year">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/year"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="24dp"
+                    android:inputType="number"
+                    android:maxLength="4"
+                    android:textColor="@color/black" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/black"
+                app:boxStrokeColor="@color/black"
+                android:hint="Mileage">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/mileage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="24dp"
+                    android:inputType="number"
+                    android:maxLength="2"
+                    android:textColor="@color/black" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/black"
+                app:boxStrokeColor="@color/black"
+                android:hint="Car Make">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/carmake"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="24dp"
+                    android:inputType="text"
+                    android:textColor="@color/black" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/black"
+                app:boxStrokeColor="@color/black"
+                android:hint="Car Model">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/carmodel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="24dp"
+                    android:inputType="text"
+                    android:textColor="@color/black" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/black"
+                app:boxStrokeColor="@color/black"
+                android:hint="Engine No">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/engineno"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="24dp"
+                    android:inputType="text"
+                    android:textColor="@color/black" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:text="CUSTOMER  REQUIREMENTS"
+                android:textColor="@color/black" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/black"
+                app:boxStrokeColor="@color/black"
+                android:hint="Customer Requirements">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/requirement"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="24dp"
+                    android:inputType="textMultiLine"
+                    android:lines="3"
+                    android:textColor="@color/black" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!--            <LinearLayout-->
+            <!--                android:orientation="vertical"-->
+            <!--                android:layout_width="fill_parent"-->
+            <!--                android:layout_height="fill_parent"-->
+            <!--                android:paddingLeft="15dp">-->
+            <!--                <LinearLayout-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:orientation="horizontal">-->
+            <!--                    <CheckBox-->
+            <!--                        android:id="@+id/s1"-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:buttonTint="@color/red"-->
+            <!--                        android:text="Air Conditioning Repair" />-->
+
+            <!--                    <TextView-->
+            <!--                        android:layout_marginLeft="5dp"-->
+            <!--                        android:padding="10dp"-->
+            <!--                        android:gravity="center"-->
+            <!--                        android:textSize="14dp"-->
+            <!--                        android:layout_width="match_parent"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:text="/Rs. 3000"/>-->
+
+            <!--                </LinearLayout>-->
+            <!--                <LinearLayout-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:orientation="horizontal">-->
+            <!--                    <CheckBox-->
+            <!--                        android:id="@+id/s2"-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:buttonTint="@color/red"-->
+            <!--                        android:text="Battery Replacement" />-->
+
+            <!--                    <TextView-->
+            <!--                        android:layout_marginLeft="5dp"-->
+            <!--                        android:padding="10dp"-->
+            <!--                        android:gravity="center"-->
+            <!--                        android:textSize="14dp"-->
+            <!--                        android:layout_width="match_parent"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:text="/Rs. 9000"/>-->
+
+            <!--                </LinearLayout>-->
+            <!--                <LinearLayout-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:orientation="horizontal">-->
+            <!--                    <CheckBox-->
+            <!--                        android:id="@+id/s3"-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:buttonTint="@color/red"-->
+            <!--                        android:text="Brake Pad Replacement" />-->
+
+            <!--                    <TextView-->
+            <!--                        android:layout_marginLeft="5dp"-->
+            <!--                        android:padding="10dp"-->
+            <!--                        android:gravity="center"-->
+            <!--                        android:textSize="14dp"-->
+            <!--                        android:layout_width="match_parent"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:text="/Rs. 4000"/>-->
+
+            <!--                </LinearLayout>-->
+            <!--                <LinearLayout-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:orientation="horizontal">-->
+            <!--                    <CheckBox-->
+            <!--                        android:id="@+id/s4"-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:buttonTint="@color/red"-->
+            <!--                        android:text="Clutch Repair" />-->
+
+            <!--                    <TextView-->
+            <!--                        android:layout_marginLeft="5dp"-->
+            <!--                        android:padding="10dp"-->
+            <!--                        android:gravity="center"-->
+            <!--                        android:textSize="14dp"-->
+            <!--                        android:layout_width="match_parent"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:text="/Rs. 5000"/>-->
+
+            <!--                </LinearLayout>-->
+            <!--                <LinearLayout-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:orientation="horizontal">-->
+            <!--                    <CheckBox-->
+            <!--                        android:id="@+id/s5"-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:buttonTint="@color/red"-->
+            <!--                        android:text="Cooling System Flush" />-->
+
+            <!--                    <TextView-->
+            <!--                        android:layout_marginLeft="5dp"-->
+            <!--                        android:padding="10dp"-->
+            <!--                        android:gravity="center"-->
+            <!--                        android:textSize="14dp"-->
+            <!--                        android:layout_width="match_parent"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:text="/Rs. 5500"/>-->
+
+            <!--                </LinearLayout>-->
+            <!--                <LinearLayout-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:orientation="horizontal">-->
+            <!--                    <CheckBox-->
+            <!--                        android:id="@+id/s6"-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:buttonTint="@color/red"-->
+            <!--                        android:text="Fuel Pump Replacement" />-->
+
+            <!--                    <TextView-->
+            <!--                        android:layout_marginLeft="5dp"-->
+            <!--                        android:padding="10dp"-->
+            <!--                        android:gravity="center"-->
+            <!--                        android:textSize="14dp"-->
+            <!--                        android:layout_width="match_parent"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:text="/Rs. 7000"/>-->
+
+            <!--                </LinearLayout>-->
+            <!--                <LinearLayout-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:orientation="horizontal">-->
+            <!--                    <CheckBox-->
+            <!--                        android:id="@+id/s7"-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:buttonTint="@color/red"-->
+            <!--                        android:text="Oil,Lube &amp; Filter" />-->
+
+            <!--                    <TextView-->
+            <!--                        android:layout_marginLeft="5dp"-->
+            <!--                        android:padding="10dp"-->
+            <!--                        android:gravity="center"-->
+            <!--                        android:textSize="14dp"-->
+            <!--                        android:layout_width="match_parent"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:text="/Rs. 4000"/>-->
+
+            <!--                </LinearLayout>-->
+
+            <!--                <LinearLayout-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:orientation="horizontal">-->
+            <!--                    <CheckBox-->
+            <!--                        android:id="@+id/s8"-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:buttonTint="@color/red"-->
+            <!--                        android:text="Radiator Repair" />-->
+
+            <!--                    <TextView-->
+            <!--                        android:layout_marginLeft="5dp"-->
+            <!--                        android:padding="10dp"-->
+            <!--                        android:gravity="center"-->
+            <!--                        android:textSize="14dp"-->
+            <!--                        android:layout_width="match_parent"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:text="/Rs. 4500"/>-->
+
+            <!--                </LinearLayout>-->
+            <!--                <LinearLayout-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:orientation="horizontal">-->
+            <!--                    <CheckBox-->
+            <!--                        android:id="@+id/s9"-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:buttonTint="@color/red"-->
+            <!--                        android:text="Wheel Alignments" />-->
+
+            <!--                    <TextView-->
+            <!--                        android:layout_marginLeft="5dp"-->
+            <!--                        android:padding="10dp"-->
+            <!--                        android:gravity="center"-->
+            <!--                        android:textSize="14dp"-->
+            <!--                        android:layout_width="match_parent"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:text="/Rs. 3500"/>-->
+
+            <!--                </LinearLayout>-->
+
+            <!--            </LinearLayout>-->
+
+            <TextView
+                android:id="@+id/addrequirements"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="25dp"
+                android:visibility="gone"
+                android:text="+ ADD CUSTOMER REQUIREMENTS"
+                android:textColor="@color/red" />
+
+            <Button
+                android:id="@+id/next1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="@color/red"
+                android:textColor="@color/white"
+                android:background="@drawable/btn_shape"
+                android:text="CREATE JOB CARD" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

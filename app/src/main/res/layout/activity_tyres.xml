@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tyres">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:background="#F3EFEF"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="?attr/actionModeCloseDrawable"
+            android:drawablePadding="20dp"
+            android:drawableTint="#0C0B0B"
+            android:text="Tyres &amp; Wheel Care"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:background="@drawable/apoloo"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="20dp"
+            android:drawablePadding="20dp"
+            android:drawableTint="#0C0B0B"
+            android:text="Apollo"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/AAH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:padding="12dp"
+            android:background="@drawable/layout_bg"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="30dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:text="Apollo Apterra HT2"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="Size -265/60 R18"
+                    android:drawableStart="@drawable/baseline_circle_24"
+                    android:drawablePadding="4dp"
+                    android:textColor="@color/black"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5 years Warranty"
+                    android:drawableStart="@drawable/baseline_circle_24"
+                    android:drawablePadding="4dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/black"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Tubeless"
+                    android:drawableStart="@drawable/baseline_circle_24"
+                    android:drawablePadding="4dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/black"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    android:text="Rs. 15,199"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:background="@drawable/brd2"
+                    android:layout_marginTop="15dp"
+                    android:layout_gravity="center|top">
+
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:background="@drawable/apollo_2"
+
+                        />
+
+                </LinearLayout>
+
+                <androidx.appcompat.widget.AppCompatButton
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="35sp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btn_corner"
+                    android:text="ADD"
+                    android:visibility="gone"
+                    android:layout_marginTop="3dp"
+                    android:textColor="#FF0000"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rim" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="20dp"
+            android:drawablePadding="20dp"
+            android:drawableTint="#0C0B0B"
+            android:text="Yokohama"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/YGA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layout_bg"
+            android:backgroundTint="@color/white"
+            android:padding="12dp"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="30dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="43dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Yokohama Geolander ATS"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="Size-265/60 R18"
+                    android:drawableStart="@drawable/baseline_circle_24"
+                    android:drawablePadding="4dp"
+                    android:textColor="@color/black"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5 years Warranty"
+                    android:drawableStart="@drawable/baseline_circle_24"
+                    android:drawablePadding="4dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/black"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Tubeless"
+                    android:drawableStart="@drawable/baseline_circle_24"
+                    android:drawablePadding="4dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/black"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    android:text="Rs. 16,599"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:background="@drawable/brd2"
+                    android:layout_marginTop="15dp"
+                    android:layout_gravity="center|top">
+
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:background="@drawable/yokohama" />
+
+                </LinearLayout>
+
+                <androidx.appcompat.widget.AppCompatButton
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="35sp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btn_corner"
+                    android:text="ADD"
+                    android:visibility="gone"
+                    android:layout_marginTop="3dp"
+                    android:textColor="#FF0000"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="20dp"
+            android:drawablePadding="20dp"
+            android:drawableTint="#0C0B0B"
+            android:text="Wheel Care Services"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:id="@+id/CWC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layout_bg"
+            android:backgroundTint="@color/white"
+            android:padding="12dp"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="30dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="43dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Complete Wheel Care "
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="Takes 4 Hours"
+                    android:drawableStart="@drawable/baseline_circle_24"
+                    android:drawablePadding="4dp"
+                    android:textColor="@color/black"
+                    />
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="43dp"
+                    android:layout_marginBottom="5dp"
+                    android:drawableStart="@drawable/baseline_circle_24"
+                    android:drawablePadding="4dp"
+                    android:text="Every 6 month or 5000 kms"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    android:text="Rs. 2,999"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:background="@drawable/brd2"
+                    android:layout_marginTop="15dp"
+                    android:layout_gravity="center|top">
+
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:background="@drawable/wheel_care" />
+
+                </LinearLayout>
+
+                <androidx.appcompat.widget.AppCompatButton
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="35sp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/btn_corner"
+                    android:text="ADD"
+                    android:visibility="gone"
+                    android:textColor="#FF0000"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

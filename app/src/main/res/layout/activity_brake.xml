@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3EFEF"
+    tools:context=".brake">
+
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+       <TextView
+           android:id="@+id/back"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="12dp"
+           android:layout_marginTop="10dp"
+           android:drawableLeft="?attr/actionModeCloseDrawable"
+           android:drawablePadding="20dp"
+           android:drawableTint="#0C0B0B"
+           android:text="Brake Maintenance"
+           android:textColor="@color/black"
+           android:textSize="18dp"
+           android:textStyle="bold" />
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="180dp"
+           android:layout_marginTop="20dp"
+           android:scaleType="centerCrop"
+           android:background="@drawable/car" />
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:padding="10dp"
+           android:orientation="vertical">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="12dp"
+               android:layout_marginTop="20dp"
+               android:drawablePadding="20dp"
+               android:drawableTint="#0C0B0B"
+               android:text="Brake Maintenance"
+               android:textColor="@color/black"
+               android:textSize="20dp"
+               android:textStyle="bold" />
+
+           <LinearLayout
+               android:id="@+id/front_brake"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:backgroundTint="@color/white"
+               android:padding="12dp"
+               android:background="@drawable/layout_bg"
+               android:layout_marginTop="10dp"
+               android:layout_gravity="center"
+               android:orientation="horizontal">
+
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:padding="30dp"
+                   android:orientation="vertical">
+
+                   <TextView
+                       android:layout_width="125dp"
+                       android:layout_height="wrap_content"
+                       android:layout_marginBottom="10dp"
+                       android:text="Front brake Pads"
+                       android:textColor="@color/black"
+                       android:textSize="15sp"
+                       android:textStyle="bold" />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginBottom="5dp"
+                       android:text="Takes 3 Hours"
+                       android:drawableStart="@drawable/baseline_circle_24"
+                       android:drawablePadding="4dp"
+                       android:textColor="@color/black"
+                       />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="match_parent"
+                       android:drawableStart="@drawable/baseline_circle_24"
+                       android:drawablePadding="4dp"
+                       android:text="1 Month Warranty"
+                       android:layout_marginBottom="5dp"
+                       android:textColor="@color/black"
+                       />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:drawableStart="@drawable/baseline_circle_24"
+                       android:drawablePadding="4dp"
+                       android:text="For Both Front Wheel"
+                       android:layout_marginBottom="5dp"
+                       android:textColor="@color/black"
+                       />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:textColor="@color/black"
+                       android:textSize="17dp"
+                       android:text="Rs. 2,999"/>
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:layout_marginLeft="20dp"
+                   android:orientation="vertical">
+                   <LinearLayout
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:padding="5dp"
+                       android:background="@drawable/brd2"
+                       android:layout_marginTop="15dp"
+                       android:layout_gravity="center|top">
+
+                       <ImageView
+                           android:layout_width="90dp"
+                           android:layout_height="90dp"
+                           android:background="@drawable/front_brake"/>
+
+                   </LinearLayout>
+
+                   <androidx.appcompat.widget.AppCompatButton
+
+                       android:layout_width="wrap_content"
+                       android:layout_height="35sp"
+                       android:layout_gravity="center"
+                       android:background="@drawable/btn_corner"
+                       android:text="ADD"
+                       android:visibility="gone"
+                       android:layout_marginTop="3dp"
+                       android:textColor="#FF0000"
+                       />
+               </LinearLayout>
+           </LinearLayout>
+
+           <LinearLayout
+               android:id="@+id/rear_brake"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="@drawable/layout_bg"
+               android:backgroundTint="@color/white"
+               android:padding="12dp"
+               android:layout_marginTop="10dp"
+               android:layout_gravity="center"
+               android:orientation="horizontal">
+
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:padding="30dp"
+                   android:orientation="vertical">
+
+                   <TextView
+                       android:layout_width="130dp"
+                       android:layout_height="wrap_content"
+                       android:layout_marginBottom="10dp"
+                       android:text="Rear Brake Shoes"
+                       android:textColor="@color/black"
+                       android:textSize="15sp"
+                       android:textStyle="bold" />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginBottom="5dp"
+                       android:text="Takes 3 Hours"
+                       android:drawableStart="@drawable/baseline_circle_24"
+                       android:drawablePadding="4dp"
+                       android:textColor="@color/black"
+                       />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="match_parent"
+                       android:drawableStart="@drawable/baseline_circle_24"
+                       android:drawablePadding="4dp"
+                       android:text="1 Month Warranty"
+                       android:layout_marginBottom="5dp"
+                       android:textColor="@color/black"
+                       />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:drawableStart="@drawable/baseline_circle_24"
+                       android:drawablePadding="4dp"
+                       android:text="For Both Rear Wheel"
+                       android:layout_marginBottom="5dp"
+                       android:textColor="@color/black"
+                       />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:textColor="@color/black"
+                       android:textSize="17dp"
+                       android:text="Rs. 3,649"/>
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:layout_marginLeft="20dp"
+                   android:orientation="vertical">
+                   <LinearLayout
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:padding="5dp"
+                       android:background="@drawable/brd2"
+                       android:layout_marginTop="15dp"
+                       android:layout_gravity="center|top">
+
+                       <ImageView
+                           android:layout_width="90dp"
+                           android:layout_height="90dp"
+                           android:background="@drawable/brakes_shoes"/>
+
+                   </LinearLayout>
+
+                   <androidx.appcompat.widget.AppCompatButton
+
+                       android:layout_width="wrap_content"
+                       android:layout_height="35sp"
+                       android:layout_marginTop="3dp"
+                       android:layout_gravity="center"
+                       android:background="@drawable/btn_corner"
+                       android:text="ADD"
+                       android:visibility="gone"
+                       android:textColor="#FF0000"
+                       />
+               </LinearLayout>
+           </LinearLayout>
+
+           <LinearLayout
+               android:id="@+id/wheel_cylinder"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_marginTop="10dp"
+               android:background="@drawable/layout_bg"
+               android:backgroundTint="@color/white"
+               android:orientation="horizontal"
+               android:padding="12dp">
+
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical"
+                   android:padding="30dp">
+
+                   <TextView
+                       android:layout_width="130dp"
+                       android:layout_height="43dp"
+                       android:layout_marginBottom="10dp"
+                       android:text="Wheel Cylinder Replacement"
+                       android:textColor="@color/black"
+                       android:textSize="15sp"
+                       android:textStyle="bold" />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginBottom="5dp"
+                       android:drawableStart="@drawable/baseline_circle_24"
+                       android:drawablePadding="4dp"
+                       android:text="Takes 6 Hours"
+                       android:textColor="@color/black" />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="match_parent"
+                       android:layout_marginBottom="5dp"
+                       android:drawableStart="@drawable/baseline_circle_24"
+                       android:drawablePadding="4dp"
+                       android:text="1 Month Warranty"
+                       android:textColor="@color/black" />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginBottom="5dp"
+                       android:drawableStart="@drawable/baseline_circle_24"
+                       android:drawablePadding="4dp"
+                       android:text="Prevents Brakes fail"
+                       android:textColor="@color/black" />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Rs. 22,999"
+                       android:textColor="@color/black"
+                       android:textSize="17dp" />
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:layout_marginLeft="20dp"
+                   android:orientation="vertical">
+
+                   <LinearLayout
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="center|top"
+                       android:background="@drawable/brd2"
+                       android:layout_marginTop="15dp"
+                       android:padding="5dp">
+
+                       <ImageView
+                           android:layout_width="90dp"
+                           android:layout_height="90dp"
+                           android:background="@drawable/wheel_cylinder" />
+
+                   </LinearLayout>
+
+                   <androidx.appcompat.widget.AppCompatButton
+
+                       android:layout_width="wrap_content"
+                       android:layout_height="35sp"
+                       android:layout_gravity="center"
+                       android:background="@drawable/btn_corner"
+                       android:text="ADD"
+                       android:visibility="gone"
+                       android:layout_marginTop="3dp"
+                       android:textColor="#FF0000" />
+               </LinearLayout>
+           </LinearLayout>
+
+       </LinearLayout>
+
+   </LinearLayout>
+
+</ScrollView>

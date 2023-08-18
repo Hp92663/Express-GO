@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FF0000</color>
+    <color name="purple_500">#FF0000</color>
+    <color name="purple_700">#FF0000</color>
+    <color name="teal_200">#FF0000</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_greyish">#EEEEEE</color>
+    <color name="button_selectorcolor">#9E9E9E</color>
+    <color name="bg_bubble_self">#62caa6</color>
+    <color name="bg_bubble_watbot">#ecf0f1</color>
+    <color name="background_color">#a56f37</color>
+    <color name="lavender">#90F10707</color>
+    <color name="red">#FF0000</color>
+    <color name="gray">#F3EFEF</color>
+
+</resources>

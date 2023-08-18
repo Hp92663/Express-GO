@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".success_payment">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="231dp"
+        android:layout_height="301dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/unnamed" />
+
+    <TextView
+        android:id="@+id/bookname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="p"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/bookdate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="p"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintTop_toBottomOf="@+id/bookname"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/canceltext"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:text="Your booking is success"
+        android:textColor="@color/design_default_color_secondary_variant"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintTop_toBottomOf="@+id/bookdate"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

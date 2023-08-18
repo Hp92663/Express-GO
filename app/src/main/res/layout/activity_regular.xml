@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CDCDCD"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        tools:context=".regular_ac">
+
+        <TextView
+            android:id="@+id/back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="?attr/actionModeCloseDrawable"
+            android:drawablePadding="20dp"
+            android:drawableTint="#0C0B0B"
+            android:text="Regular Ac Service"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/regular_ac"
+            android:layout_marginTop="20dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:drawablePadding="20dp"
+            android:drawableTint="#0C0B0B"
+            android:text="Regular AC Service"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:drawableStart="@drawable/baseline_timer_24"
+            android:drawablePadding="10dp"
+            android:drawableTint="#FF0A0A"
+            android:text="Takes 4 Hours"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:drawableStart="@drawable/baseline_shield_24"
+            android:drawablePadding="10dp"
+            android:drawableTint="#FF0A0A"
+            android:text="500 Kms or 1 Month Warranty"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:drawableStart="@drawable/baseline_thumb_up_24"
+            android:drawablePadding="10dp"
+            android:drawableTint="#FF0A0A"
+            android:text="Every 5,000 Kms or 3 Month (Recommended)"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:drawablePadding="20dp"
+            android:drawableTint="#0C0B0B"
+            android:text="What's Include"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="20dp"
+            android:drawablePadding="20dp"
+            android:drawableTint="#0C0B0B"
+            android:text="Essential Services"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="13dp"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_gravity="center|top">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="140dp"
+                                android:background="@drawable/gas"/>
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:drawableTint="#0C0B0B"
+                            android:text="AC Gas                     (Up to 400 gms) "
+                            android:textColor="@color/black"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_gravity="center|top">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="140dp"
+                                android:background="@drawable/conde_cln" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="140dp"
+                            android:layout_height="48dp"
+                            android:drawableTint="#0C0B0B"
+                            android:text="Condenser   Cleaning "
+                            android:textColor="@color/black"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_gravity="center|top">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="140dp"
+                                android:background="@drawable/ac_fit_cln"/>
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="42dp"
+                            android:drawableTint="#0C0B0B"
+                            android:text="Ac Filter          Cleaning "
+                            android:textColor="@color/black"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:drawablePadding="20dp"
+            android:layout_marginTop="20dp"
+            android:drawableTint="#0C0B0B"
+            android:text="Additional Services"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/brd"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:drawableStart="@drawable/baseline_verified_24"
+                android:drawablePadding="10dp"
+                android:text="Ac Vent Cleaning"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:drawableStart="@drawable/baseline_verified_24"
+                android:drawablePadding="10dp"
+                android:text="Ac Inspection"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:background="@color/gray"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="70dp"
+                android:textSize="26dp"
+                android:textStyle="bold"
+                android:text="Price"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textSize="26dp"
+                android:text="Rs."
+                android:textColor="@color/red" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textSize="26dp"
+                android:text="4,999"
+                android:textColor="@color/red" />
+
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/regular_ac"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADD"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="13dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:background="@drawable/btn_bg"/>
+
+    </LinearLayout>
+
+</ScrollView>
