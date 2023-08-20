@@ -39,7 +39,6 @@ Pages
 
     1. Splash Screen
     
-
     2. Login Page
 
     3. SignUp Page
