@@ -1,3 +1,7 @@
+# 💫 About Me:
+Hello Everyone  My name is KHUT HIREN<br><br>I'm Currently study MCA in CPPGICA under GTU<br><br>I'm Currently learning React and Node JS
+
+
 ## 🌐 Socials:
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/https://discord.gg/cYMKH2taPr) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/hiren_khut_92663?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/hiren-khut-638381244) [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/22419288/hiren-khut) [![Codepen](https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/Hiren-Khut) 
 
