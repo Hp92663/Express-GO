@@ -36,6 +36,7 @@ User can Browse service as per requirement and regular service.
 Pages
 
     1. Splash Screen
+    
 
     2. Login Page
 
@@ -78,16 +79,18 @@ Pages
 ## 🛠 Skills
 * XML for the Designing
 * Java for the Backend
-* good knowledge of Firebase for the store and retrieve data and authentication
+* good knowledge of
+ Firebase for the store and retrieve data and authentication
 ## Screenshots
 
+![001](https://github.com/Hp92663/Express-GO/assets/88971001/c98bf27e-673c-435b-be89-77e9d031b680)
+
+
+https://github.com/Hp92663/Express-GO/assets/88971001/d06338c2-bdc7-400a-beea-199f9a7018b7
 
 
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/hiren-khut-638381244" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="hiren-khut-638381244" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/https://leetcode.com/hp92663/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="https://leetcode.com/hp92663/" height="30" width="40" /></a>
-<a href="https://discord.gg/hiren_42598" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="hiren_42598" height="30" width="40" /></a>
-</p>
+
+
+
 
